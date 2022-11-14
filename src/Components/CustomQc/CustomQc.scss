@@ -1,0 +1,105 @@
+.CustomQc-container {
+
+    padding: 20px;
+    background: var(--app-FAFAFD);
+    box-shadow: 2px 2px 4px rgba(130, 169, 177, 0.13);
+    height: 100vh;
+
+    .ant-radio-wrapper {
+        font-size: 20px;
+    }
+
+    .ant-radio-group {
+        .ant-radio-inner {
+            border: 2px solid var(--app-6E6E6E) !important;
+        }
+
+        .ant-radio-inner::after {
+            background-color: var(--app-6E6E6E) !important;
+        }
+    }
+
+    .ant-radio-wrapper {
+        margin: 0px 50px 0px 0px;
+        font-family: 'RedHat-SemiBold';
+
+        span {
+            font-size: 20px;
+            color: var(--app-2D2D2D);
+            position: relative;
+            top: 1px;
+        }
+    }
+
+
+    .price-per-piece-container {
+
+        .price-per-box{
+            display: flex;
+            margin-top: 30px;
+            font-size: 18px;
+            color: var(--app-6E6E6E);
+            padding: 10px;
+            .mrp{
+                font-family: 'RedHat-SemiBold';
+            }
+            .ant-input{
+                border-radius: 5px;
+                width: 200px;
+                margin-left: 20px;
+                font-size: 18px;
+                font-weight: 600;
+            }
+           
+        }
+
+        .qc-to-perform {
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+            color:var(--app-6E6E6E);
+            padding: 10px;
+            .percentage-Qc{
+                font-family: 'RedHat-SemiBold';
+                margin-top: 5px;
+            }
+
+            .ant-input{
+                border-radius: 5px;
+                width: 100px;
+                margin-left: 10px;
+                font-size: 18px;
+                font-family: 'RedHat-Regular';
+            }
+        }
+
+        .p-box{
+            padding: 10px;
+        }
+
+    }
+
+     
+    .notes-view-container {
+        background-color: var(--app-FFEBB2);
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        display: flex;
+        width: 500px;
+
+        svg{
+            margin-top: 5px;
+        }
+
+        .content {
+            font-size: 16px;
+            color: var(--app-2D2D2D);
+            margin-left: 10px;
+            font-family: 'RedHat-SemiBold';
+        }
+}
+
+
+}

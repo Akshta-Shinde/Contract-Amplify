@@ -1,0 +1,51 @@
+@import "../../Globals/ColorVariables.css";
+
+.other-charges-container {
+    .packaging-material-box {
+        padding: 10px;
+        background: var(--app-FAFAFD);
+        box-shadow: 2px 2px 4px rgba(130, 169, 177, 0.13);
+
+        .ant-row {
+            margin-top: 10px;
+            padding: 5px;
+        }
+
+        .checkbox-container {
+            font-size: 20px;
+            font-weight: 600;
+             .ant-checkbox-inner {
+                border: 1px solid #12829F !important;
+            }
+
+            .ant-checkbox-checked .ant-checkbox-inner {
+                background-color: #12829F  !important;
+                border: 1px solid #12829F !important;
+
+            }
+
+           
+
+            .ant-checkbox-wrapper {
+                font-size: 16px;
+                font-family: 'RedHat-SemiBold';
+            }
+        }
+
+        .price-container {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: var(--app-868686);
+            padding: 5px;
+            text-align: start;
+
+            .ant-input {
+                border-radius: 5px;
+                border: 1px solid var(--app-D3D3D3);
+                font-family: 'RedHat-Regular';
+            }
+        }
+    }
+
+}

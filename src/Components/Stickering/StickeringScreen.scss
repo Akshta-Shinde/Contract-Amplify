@@ -1,0 +1,107 @@
+.stickering-container {
+    background-size: cover;
+    background: var(--app-FAFAFD);
+    padding: 20px;
+    height: 100vh;
+
+    .ant-radio-group {
+        .ant-radio-inner {
+            border: 2px solid #6E6E6E !important;
+        }
+
+        .ant-radio-inner::after {
+            background-color: #6E6E6E !important;
+        }
+    }
+
+
+    .ant-radio-wrapper {
+        margin: 0px 50px 0px 0px;
+        font-family: 'RedHat-SemiBold';
+
+        span {
+            font-size: 20px;
+            color: var(--app-2D2D2D);
+            position: relative;
+            top: 1px;
+
+        }
+    }
+
+    .select-container {
+        // display: flex;
+        margin-top: 40px;
+
+        hr{
+            height: 2.5px !important;
+            width: 700px;
+            margin-top: 30px;
+            background: #ECECEC;
+        }
+
+        .title-input-container {
+            display: flex;
+            align-items: center;
+
+
+            .title {
+                font-style: normal;
+                margin-right: 30px;
+                font-size: 20px;
+                line-height: 24px;
+                color: var(--app-2D2D2D);
+                opacity: 0.6;
+                font-family: 'RedHat-SemiBold';
+            }
+
+            .input {
+
+                .ant-input {
+                    border-radius: 5px;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .skus-selection {
+        margin-top: 50px;
+
+
+        .ant-radio-wrapper {
+            span {
+                font-size: 18px;
+                color: var(--app-2D2D2D);
+            }
+        }
+    }
+
+    .not-applicable-container {
+        margin-left: 10px;
+        padding: 35px 10px;
+
+        .not-applicable-font {
+            margin-left: 20px;
+            font-family: 'RedHat-SemiBold';
+
+        }
+
+        // background: var(--app-FAFAFD);
+        // box-shadow: 2px 2px 4px rgba(130, 169, 177, 0.13);
+
+        .notes-view-container {
+            background-color: var(--app-FFEBB2);
+            padding: 7px;
+            border-radius: 10px;
+            width: 250px;
+            font-size: 15px;
+
+            .notes-title {
+                font-size: 16px;
+                color: var(--app-2D2D2D);
+                font-weight: 500;
+            }
+        }
+    }
+}

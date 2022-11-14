@@ -1,0 +1,97 @@
+.Inward-stickering-container {
+    background-size: cover;
+    background: var(--app-FAFAFD);
+    padding: 20px;
+    height: 100vh;
+
+
+    .ant-radio-wrapper {
+        margin: 0px 50px 0px 0px;
+        font-family: 'RedHat-SemiBold';
+
+        span {
+            font-size: 20px;
+            color: var(--app-2D2D2D);
+            position: relative;
+            top: 1px;
+        }
+    }
+
+    .ant-radio-group {
+        .ant-radio-inner {
+            border: 2px solid var(--app-6E6E6E) !important;
+        }
+
+        .ant-radio-inner::after {
+            background-color: var(--app-6E6E6E) !important;
+        }
+    }
+
+
+
+    .price-per-piece-container {
+
+        padding-top: 30px;
+       
+
+        .price-per-mrp-container {
+               display: flex;
+
+            .mrp {
+                   
+
+             font-family: 'RedHat-SemiBold';
+              margin-right: 30px;
+              font-size: 18px;
+              color: var(--app-868686);
+            
+            }                     
+                    .ant-input {
+                        border-radius: 5px;
+                        border: 1px solid var(--app-D3D3D3);
+                        width: 200px;
+                        margin-left: 10px;
+                        font-family: 'RedHat-Regular';
+                    }
+
+                    .ant-radio-wrapper {
+                        font-size: 18px;
+                    }
+
+                    .ant-radio-group {
+                        .ant-radio-inner {
+                            border: 2px solid var(--app-12829F) !important;
+                        }
+
+                        .ant-radio-inner::after {
+                            background-color: var(--app-12829F) !important;
+                        }
+                    }
+
+        }
+
+        
+        .notes-view-container {
+            background-color: var(--app-FFEBB2);
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 16px;
+            display: flex;
+            width: 300px;
+
+            svg{
+                margin-top: 5px;
+            }
+
+            .content {
+                font-size: 16px;
+                color: var(--app-2D2D2D);
+                margin-left: 10px;
+                font-family: 'RedHat-SemiBold';
+            }
+    }
+
+    }
+
+
+}

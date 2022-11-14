@@ -1,0 +1,113 @@
+@import "../Globals/ColorVariables.css";
+
+.title-container {
+  position: fixed;
+  left: 250px;
+  top: 60px;
+  right: 0;
+  background-color: white;
+  z-index: 9999;
+  padding: 10px 10px 0px 10px;
+  .title-container-header-bar {
+    .client-name-container {
+      font-family: 'RedHat-Bold';
+      font-size: 22px;
+      color: var(--app-2D2D2D);
+      background: linear-gradient(90deg,rgba(32, 205, 122, 0.5) -0.91%,rgba(31, 185, 237, 0.5) 107.71%);
+      padding: 10px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+    }
+    .warehouse-details-container {
+      background-color: var(--app-274248);
+      padding: 0px 50px;
+      .details-heading-lbl {
+        font-size: 14px;
+        color: var(--app-FFFFFF);
+        font-family: 'RedHat-Regular';
+      }
+      .details-count{
+        font-size: 14px;
+        color: var(--app-fecc3f);
+        font-family: 'RedHat-Bold';
+      }
+      .details-value {
+        font-family: 'RedHat-Bold';
+        font-size: 14px;
+        color: var(--app-FFFFFF);
+      }
+    }
+    .preview-close-container{
+      display: flex;
+      align-items: center;
+      height: 100%;
+      .preview-button-container {
+        background: var(--app-d0e3e9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 50px;
+        height: 100%;
+        color: var(--app-20B7E8);
+        font-size: 9px;
+        margin-left: auto;
+        margin-right: 10px;
+      }
+      .close-button-container {
+        background: var(--app-FFD7D7);
+        width: 50px;
+        height: 100%;
+        font-size: 9px;
+        color: var(--app-f34436);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .close-icon {
+          color: var(--app-f34436);
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .title-container-sub-header-bar {
+    margin-top: 5px;
+    background-color: var(--app-86CFD9);
+    padding: 5px 10px;
+    .screen-lbl{
+      font-family: 'RedHat-Bold';
+      font-size: 18px;
+      color: var(--app-2D2D2D);
+    }
+    .price-header-lbl {
+      font-family: 'RedHat-Bold';
+      font-size: 18px;
+      color: var(--app-2D2D2D);
+    }
+    .uom-header-lbl {
+      font-family: 'RedHat-Bold';
+      font-size: 18px;
+      color: var(--app-2D2D2D);
+    }
+    .buttons-container {
+      display: flex;
+      .btn {
+        background: var(--app-e6f5f7) !important;
+        color: var(--app-12829F);
+        border-radius: 5px;
+        font-family: 'RedHat-Medium';
+        border: none;
+        height: 25px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.title-container-children{
+  margin-top: 90px;
+}

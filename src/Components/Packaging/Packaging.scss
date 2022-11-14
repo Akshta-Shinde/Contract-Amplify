@@ -1,0 +1,199 @@
+@import "../../Globals/ColorVariables.css";
+
+.packaging-screen-container {
+    background-size: cover;
+
+    .title-Container {
+        background-color: var(--app-E1E1F0);
+        color: var(--app-2D2D2D);
+        font-size: 18px;
+        font-family: 'RedHat-Bold';
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .packaging-material-container {
+        .packaging-material-box {
+            padding: 10px;
+            background: var(--app-FAFAFD);
+            box-shadow: 2px 2px 4px rgba(130, 169, 177, 0.13);
+
+            .ant-row {
+                margin-top: 10px;
+                padding: 5px;
+            }
+
+            .checkbox-container {
+                font-size: 20px;
+                font-weight: 600;
+
+                .ant-checkbox-inner {
+                    border: 1px solid #12829F !important;
+                }
+
+                .ant-checkbox-checked .ant-checkbox-inner {
+                    background-color: #12829F !important;
+                    border: 1px solid #12829F !important;
+
+                }
+
+
+
+                .ant-checkbox-wrapper {
+                    font-size: 16px;
+                }
+            }
+
+            .price-container {
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                color: var(--app-868686);
+                font-family: 'RedHat-Regular';
+
+                .ant-input {
+                    border-radius: 5px;
+                    border: 1px solid var(--app-D3D3D3);
+                }
+
+                .per-calculation {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+
+    .standard-sku-container {
+        margin-top: 20px;
+
+        .packaging-material-box {
+            padding: 10px;
+            background: var(--app-FAFAFD);
+            box-shadow: 2px 2px 4px rgba(130, 169, 177, 0.13);
+
+            .ant-row {
+                margin-top: 10px;
+                padding: 5px;
+            }
+
+            .checkbox-container {
+                font-size: 20px;
+                font-weight: 600;
+
+                .ant-checkbox-inner {
+                    border: 1px solid #12829F !important;
+                }
+
+                .ant-checkbox-checked .ant-checkbox-inner {
+                    background-color: #12829F !important;
+                    border: 1px solid #12829F !important;
+
+                }
+                .ant-checkbox-wrapper {
+                    font-size: 16px;
+                }
+            }
+
+            .price-container {
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                color: var(--app-868686);
+                font-family: 'RedHat-Regular';
+                .input-field{
+                    font-family: 'RedHat-Regular';
+                }
+
+                .ant-input {
+                    border-radius: 5px;
+                    border: 1px solid var(--app-D3D3D3);
+                    font-family: 'RedHat-Regular';
+                }
+
+                .per-calculation {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+
+    .custom-carton-box-cantainer {
+        margin-top: 20px;
+
+        .weight-slab-container {
+            padding: 20px;
+            background: var(--app-FAFAFD);
+            box-shadow: 2px 2px 4px rgba(130, 169, 177, 0.13);
+
+            .ant-table {
+                width: 600px;
+
+                .ant-table-tbody>tr>td {
+                    border-bottom: none !important;
+                    padding: 10px !important;
+                }
+
+
+                .ant-table-tbody {
+                    background: var(--app-FAFAFD) !important;
+                }
+
+
+                .ant-select {
+                    width: 100%;
+
+                }
+
+                .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+                    span {
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: var(--app-262626);
+                        text-align: start;
+                    }
+                }
+            }
+
+            .action-container {
+                display: flex;
+                align-items: center;
+
+                .ant-btn {
+                    border-radius: 50%;
+                    width: 25px;
+                    height: 25px;
+                    padding: 0px !important;
+
+                }
+
+                .Add-btn {
+                    color: var(--app-FFFFFF);
+                    background-color: var(--app-274248);
+                    font-size: 12px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .delete-btn {
+                    color: var(--app-FFFFFF);
+                    background-color: var(--app-b04949);
+                    font-size: 12px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .ant-input {
+                border-radius: 5px;
+                border: 1px solid var(--app-D3D3D3);
+                width: 100%;
+            }
+        }
+    }
+}

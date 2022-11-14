@@ -1,0 +1,225 @@
+.loading-screen-container {
+    background: var(--app-FAFAFD);
+    box-shadow: 2px 2px 4px rgba(130, 169, 177, 0.13);
+    padding: 20px;
+    height: 100vh;
+
+    .loading-type-selection {
+        padding: 20px;
+
+        .ant-radio-wrapper {
+            font-size: 20px;
+            font-family: 'RedHat-SemiBold';
+        }
+
+        .ant-radio-group {
+            .ant-radio-inner {
+                border: 2px solid var(--app-12829F) !important;
+            }
+
+            .ant-radio-inner::after {
+                background-color: var(--app-12829F) !important;
+            }
+        }
+
+    }
+
+    .vehicle-chargeType-container {
+        .charge-type {
+            padding: 20px;
+            background: var(--app-FAFAFD);
+
+            .title {
+                font-style: normal;
+                font-family: 'RedHat-SemiBold';
+                font-size: 20px;
+                line-height: 24px;
+                color: var(--app-2D2D2D);
+            }
+
+            .charge-type-selection {
+                margin-top: 20px;
+
+                .ant-radio-button-wrapper {
+                    margin-right: 20px;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: var(--app-12829F);
+                    border: 2px solid var(--app-12829F);
+                    width: 140px;
+                    text-align: center
+                }
+
+                .ant-radio-button-wrapper-checked {
+                    background-color: var(--app-12829F);
+                    color: var(--app-FFFFFF);
+                    font-size: 18px;
+                    font-weight: 600;
+                    width: 140px;
+                    text-align: center
+                }
+
+                .ant-radio-button-wrapper:not(:first-child):before {
+                    background-color: var(--app-12829F) !important;
+                }
+
+                .ant-radio-wrapper {
+                    span {
+                        font-size: 18px;
+                        color: var(--app-2D2D2D);
+                    }
+                }
+            }
+
+            .vehicle-view-container {
+                margin-top: 20px;
+                background: var(--app-FAFAFD);
+
+                .price-input-container {
+                    font-family: 'RedHat-SemiBold';
+
+                    .ant-input {
+                        border-radius: 5px;
+                    }
+
+                }
+
+                .select-vehicle-table {
+                    .ant-table {
+                        width: 700px;
+
+                        .ant-table-tbody>tr>td {
+                            border-bottom: none !important;
+                            padding: 5px !important;
+                            text-align: left !important;
+                        }
+
+                        .ant-table-tbody {
+                            background: var(--app-FAFAFD) !important;
+                        }
+
+                        .ant-input {
+                            border-radius: 5px;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+
+
+                        .action-container {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-size: 16px;
+                            color: var(--app-274248);
+
+                            .ant-btn {
+                                border-radius: 50%;
+                                width: 25px !important;
+                                height: 25px !important;
+                                padding: 0px !important;
+
+                            }
+
+                            .Add-btn {
+                                color: var(--app-FFFFFF);
+                                background-color: var(--app-274248);
+                                font-size: 14px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .delete-btn {
+                                color: var(--app-FFFFFF);
+                                background-color: var(--app-b04949);
+                                font-size: 13px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        }
+
+                        .ant-select {
+                            border-radius: 5px;
+                            width: 400px;
+
+                            .ant-select-selection-item {
+                                font-weight: 400;
+                                font-size: 18px;
+                                color: var(--app-2D2D2D);
+                            }
+                        }
+                    }
+                }
+
+                .loading-calculation-ex {
+                    margin-top: 20px;
+                    padding: 10px;
+                    background: var(--app-86CFD9);
+                    font-family: 'RedHat-Bold';
+                    font-size: 16px;
+                    color: var(--app-2D2D2D);
+                    width: 800px;
+                }
+            }
+        }
+    }
+
+    .notes-view-container {
+        display: flex;
+        background-color: var(--app-FFEBB2);
+        width: 800px;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+
+        svg {
+            margin-top: 5px;
+        }
+
+        .notes-container {
+            width: 800px;
+
+            .notes-title {
+                display: flex;
+                justify-content: space-around;
+
+                .notes-content {
+                    font-size: 16px;
+                    text-align: center;
+                }
+
+                .count {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+
+            .consignment-calculation {
+                margin-top: 10px;
+                margin-left: 45px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .not-applicable-noteview {
+        display: flex;
+        background-color: var(--app-FFEBB2);
+        width: 500px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-left: 20px;
+
+        svg {
+            margin-top: 5px;
+        }
+
+        .content {
+            font-size: 16px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+    }
+}
